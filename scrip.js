@@ -1,10 +1,11 @@
+
+ 
 const validKeys = [
     "f9b2ca21458f7f4e5d619c67b8147bc1",
     "fd51b5169762b0bac7c7d6b024a4b022",
     "e99a18c428cb38d5f260853678922e03",
-    "202cb962ac59075b964b07152d234b70",
-    "5a7b2a57d47a6a3a6ef40c6f4e6f4e3f", // Existing hash
-    CryptoJS.MD5("bghcoderdzz").toString() // Added new hash for bghcoderdzz
+    "202cb962ac59075b964b07152d234b70"
+       CryptoJS.MD5("bghcoderdzz").toString() // Added new hash for bghcoderdzz
 ];
 
 function checkKey() {
